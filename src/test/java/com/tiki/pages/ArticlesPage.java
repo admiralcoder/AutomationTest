@@ -112,6 +112,9 @@ public class ArticlesPage {
 	@FindBy(name="expire_Year")
 	public WebElement expirationYear;
 	
+	@FindBy(name="expire_Year")
+	public WebElement expirationYears;
+	
 	public void selectElement(WebElement element, String value) {
 		Select selectElement = new Select(element);
 		selectElement.selectByVisibleText(value);
