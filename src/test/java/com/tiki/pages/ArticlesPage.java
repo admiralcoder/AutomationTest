@@ -12,6 +12,7 @@ import com.tiki.utilities.Driver;
 
 public class ArticlesPage {
 	
+	
 	public ArticlesPage() {
 		PageFactory.initElements(Driver.getInstance(), this);
 	}
